@@ -1,0 +1,98 @@
+$font-Header: 'Itim',
+cursive;
+$font-Content: 'Open Sans',
+sans-serif;
+$base-green-color : #ABEEC2;
+$base-blue-color:#4F93A9;
+
+body {
+    font-family: $font-Content;
+
+    .navbar-brand {
+        font-family: $font-Header;
+    }
+    .mainContentTitle {
+        font-family: $font-Header;
+        text-align: center;
+    }
+    .mainContent {
+        margin: 20px 20px 0 20px;
+        padding: 10px;
+
+  
+    }
+
+    .bottomContent {
+        font-family: $font-Content;
+
+        .blockContent {
+            padding: 25px;
+
+            h2.blockContentTitle {
+                text-align: center;
+                padding: 10px;
+                font-family: $font-Header;
+                text-align: center;
+            }
+
+            .blockContent {
+                display: none;
+            }
+        }
+    }
+
+    .locationContent {
+        margin-bottom: 60px;
+
+        .locationContentInner {
+            margin: 0 20px;
+            padding: 30px 10px;
+
+            .locationTitle {
+                font-family: $font-Header;
+                text-align: center;
+            }
+        }
+
+        .map-responsive {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+
+            iframe {
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+            }
+        }
+    }
+
+    .mailingListFom {
+        background-color: #D7FAE3;
+
+        .mailingListFomInner {
+            .mailingListTitle {
+                font-family: $font-Header;
+                text-align: center;
+            }
+
+            margin: 60px 20px;
+            padding: 30px 10px;
+        }
+    }
+
+    #footer {
+        color: white;
+        a {
+            color: white; 
+        }
+        background-color: $base-blue-color;
+
+        .inner-footer {
+            margin: 20px 20px 0 20px;
+        }
+    }
+}
